@@ -53,7 +53,8 @@ def movies_with_director_key(name, movies_collection)
     
     {
       :name => "The invencibles",
-      :worldwide_gross => 300000
+      :worldwide_gross => 300000,
+      :RUBY_RELEASE_DATE => 
       
       
       
