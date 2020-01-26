@@ -52,7 +52,12 @@ def movies_with_director_key(name, movies_collection)
   movies = [
     
     {
-      :name => "The invencibles"}
+      :name => "The invencibles",
+      
+      
+      
+      
+    }
     
     
     ]
