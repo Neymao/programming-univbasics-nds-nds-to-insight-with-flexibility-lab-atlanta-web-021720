@@ -99,7 +99,56 @@ def gross_per_studio(collection)
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
   
-  
+   movies=
+    [
+      {
+        :title "the invincibles",
+      :worldwide_gross => 3000000 ,
+    :release_year =>2008,
+    :studio "Paramount"],
+    :director_name "John Legend"
+  }
+  {
+    :title "Spartan",
+      :worldwide_gross => 6000000 ,
+    :release_year =>2007,
+    :studio "Mage Entertainment"],
+    :director_name "Lucas Jan"}
+    {
+      :title "Rush hour2",
+      :worldwide_gross => 10000000 ,
+    :release_year =>2002,
+    :studio "20 Centurey"],
+    :director_name "Jackie Chan"
+    }
+    ]
+    puts movies[0][1]
+    puts movies[1][1]
+    puts movies[2][1]
+end
+
+def movies_with_directors_set(source)
+@@ -76,14 +125,49 @@ def movies_with_directors_set(source)
+  #
+  # Array of Arrays containing all of a director's movies. Each movie will need
+  # to have a :director_name key added to it.
+ director_movies = [
+      {
+        :title "the invincibles",
+    :director_name "John Legend"
+  }
+  {
+    :title "Spartan",
+    :director_name "Lucas Jan"}
+    {
+      :title "Rush hour2",
+    :director_name "Jackie Chan"
+    }
+    ]
+end
+director_movies [0]
+director_movies [1]
+director_movies [2]
 end
 
 def movies_with_directors_set(source)
