@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
       :worldwide_gross => 300000,
       :RUBY_RELEASE_DATE => 2008,
       :studio => "Paramount"],
-      :director_name
+      :director_name => "John Legend"
       
       
       
