@@ -52,10 +52,10 @@ def movies_with_director_key(name, movies_collection)
   movies = [
     
     {
-      :name => "The invencibles",
+      :title => "The invencibles",
       :worldwide_gross => 300000,
-      :RUBY_RELEASE_DATE => 2008,
-      :studio => "Paramount"],
+      :release_year => 2008,
+      :studio => "Paramount",
       :director_name => "John Legend"
       
       
